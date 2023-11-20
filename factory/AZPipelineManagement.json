@@ -1,0 +1,9 @@
+{
+	"name": "AZPipelineManagement",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5582cda5-b40d-4403-a3a5-049bf5832786",
+		"tenantId": "2db0e13c-89f2-4a67-88ce-504c6fb70607"
+	}
+}
