@@ -1,0 +1,6 @@
+{
+	"name": "loaclSelfHostedIR",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
