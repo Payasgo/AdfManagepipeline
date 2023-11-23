@@ -1,0 +1,40 @@
+{
+	"name": "DS_AZ_Snowflake_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_snowflakedemo",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "store"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "ENAME",
+				"type": "UTF8"
+			},
+			{
+				"name": "JOB",
+				"type": "UTF8"
+			},
+			{
+				"name": "SAL",
+				"type": "DECIMAL",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "COMM",
+				"type": "DECIMAL",
+				"precision": 18,
+				"scale": 0
+			}
+		]
+	}
+}
