@@ -82,8 +82,8 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "INFORMATION_SCHEMA",
-			"table": "STAGES"
+			"schema": "PUBLIC",
+			"table": "EMPINFO"
 		}
 	}
 }
