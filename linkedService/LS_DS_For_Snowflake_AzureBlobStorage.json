@@ -1,0 +1,17 @@
+{
+	"name": "LS_DS_For_Snowflake_AzureBlobStorage",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+<<<<<<< HEAD:linkedService/LS_AzureBlobStorage.json
+			"sasUri": "https://bloobber.blob.core.windows.net/store",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDVBNjM1MzczLTExQTEtNDdDNC1BNDAxLUFFQTRFODZDMDdENV9jYThjNWMzZi04Y2IyLTRmY2MtOWI3NC1jYjVhMmVlNmViMjMiDQp9"
+=======
+			"sasUri": "https://bloobber.blob.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDVBNjM1MzczLTExQTEtNDdDNC1BNDAxLUFFQTRFODZDMDdENV9mNzc2M2M4NS00NzUwLTRlYzctODI1NC1jZTdmNWUwNDQ5ZmMiDQp9"
+>>>>>>> 7d147c0e32710d5be02179b164f213a1e831d992:linkedService/LS_DS_For_Snowflake_AzureBlobStorage.json
+		}
+	}
+}

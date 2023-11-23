@@ -1,0 +1,41 @@
+{
+	"name": "copy_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "dbo",
+				"container": "store"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "ENAME",
+				"type": "UTF8"
+			},
+			{
+				"name": "JOB",
+				"type": "UTF8"
+			},
+			{
+				"name": "SAL",
+				"type": "DECIMAL",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "COMM",
+				"type": "DECIMAL",
+				"precision": 18,
+				"scale": 0
+			}
+		]
+	}
+}
