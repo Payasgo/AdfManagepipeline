@@ -1,0 +1,89 @@
+{
+	"name": "DS_SnowflakeTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Snowflake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeTable",
+		"schema": [
+			{
+				"name": "STAGE_CATALOG",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "STAGE_SCHEMA",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "STAGE_NAME",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "STAGE_URL",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "STAGE_REGION",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "STAGE_TYPE",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "STAGE_OWNER",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "COMMENT",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "CREATED",
+				"type": "TIMESTAMP_LTZ",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "LAST_ALTERED",
+				"type": "TIMESTAMP_LTZ",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "ENDPOINT",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "DIRECTORY_ENABLED",
+				"type": "BOOLEAN",
+				"precision": 1,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "INFORMATION_SCHEMA",
+			"table": "STAGES"
+		}
+	}
+}
